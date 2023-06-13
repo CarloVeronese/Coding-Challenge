@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+#bg{
+    background-image: url(background.jpg);
+    height:730px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30px;
+}
+
+#title{
+    color: rgb(0, 178, 0); /*colore trovato ispezionando il sito di Limw */
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#first{
+    background-color: rgb(0, 178, 0);
+    padding: 5px;
+    margin-bottom: 10px;
+} /*caratteristiche dello sfondo dei bottoni*/
+
+.line{
+    display: inline-block;
+}
+
+.row{
+    height: 25px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#yll{
+    background-color: orange;
+    width: 40%;
+}
+
+#grn{
+    background-color: rgb(0, 178, 0);
+    width: 70%;
+}
+
+#red{
+    background-color: red;
+    width: 18%;
+}
+
+img{
+    height: 100px;
+    display: block; /* per poterlo allineare in centro tramite i margini*/
+    margin: auto;
+}
+
+.scooter{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.details{
+    font-size: 14px;
+}
+
+#back{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 60%;
+    margin: auto;
+    padding: 5%;
+    border-radius: 8px;
+}/* sfondo nero trasparente */
+ 
+.button{
+    font-size: 10px;
+} /*caratteristiche dei bottoni*/
+
+.center{
+    width: fit-content;
+    margin: auto;
+}
